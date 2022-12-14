@@ -1,0 +1,5 @@
+---
+jobs:
+  - name: wp-crons
+    schedule: "*/5 * * * * *"
+    command: "/bin/bash, jobs/wp-cron.sh"
